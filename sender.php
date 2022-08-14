@@ -4,9 +4,9 @@ $email=$_POST['email'];
 $messaged=$_POST['messageHolder'];
 
 if(!empty($username) || !empty($email)){
-    $host="Mysql@127.0.0.1:3306";
-    $dbUsername="root";
-    $dbPassword="aman123";
+    $host="";
+    $dbUsername="";
+    $dbPassword="";
     $dbname="register";
 
     $conn= new mysqli($host,$dbUsername,$dbPassword,$dbname);
